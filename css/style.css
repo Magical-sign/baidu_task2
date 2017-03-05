@@ -1,0 +1,188 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #333;
+}
+
+.text{
+	width: 94%;
+	margin: 0 auto;
+	background: #ccc;
+}
+
+.nav{
+	height: 60px;
+	width: 100%;
+	background: #666;
+}
+
+.nav h1{
+	font-size: 30px;
+	color: #ccc;
+	height: 100%;
+	line-height: 60px;
+	margin-left: 30px;
+	float: left;
+}
+
+.nav ul{
+	float: right;
+}
+
+.nav ul li{
+	float: left;
+	font-size: 15px;
+	line-height: 60px;
+	width: 100px;
+	color: #000;
+}
+
+.nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav .link-selected a{
+	color: #ccc;
+}
+
+.main-body{
+	width: 96%;
+	margin: 20px auto;
+	background: #fff;
+	border: 1px solid #888;
+	box-sizing: border-box;
+	padding: 35px 20px;
+	box-shadow: 3px 3px 2px #888;
+}
+
+.first-header{
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.second-header{
+	font-size: 16px;
+	color: #666;
+	margin:15px 0;
+}
+
+.subtitle{
+	font-size: 12px;
+	color: #666;
+}
+
+p{
+	margin: 15px 0;
+	text-indent: 2em;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+.main-body ul{
+	list-style: none;
+}
+
+.photo{
+	width: 150px;
+	height: 140px;
+	border:1px solid #888;
+	margin: 20px 40px;
+}
+
+.photo span{
+ 	display: block; 
+	font-size: 14px;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+
+.photo img{
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+}
+
+.main-body ol{
+	margin:20px 40px;
+}
+
+span{
+	font-size: 15px;
+	line-height: 24px;
+}
+
+.main-body4 table{
+	width: 100%;
+	border-collapse: collapse; 
+}
+
+.main-body4 table td{
+	border: 1px solid #888;
+}
+
+.main-body4 table th{
+	border: 1px solid #888;
+	background: #000;
+	color: #fff;
+	text-align: left;
+
+}
+
+.sum{
+	background: #888;
+	font-weight: 600;
+}
+
+.sidebar-header{
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	border-left: 3px solid #ccc;
+	padding-left: 20px;
+}
+
+.align-right{
+	text-align: right;
+}
+
+.align-left{
+	text-align: left;
+}
+
+.sidebar table{
+	margin:30px 300px;
+}
+
+.submitbtn{
+	background: blue;
+	border-radius: 10px;
+	height: 40px;
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+}
+
+.notes{
+	font-size: 12px;
+	color: #666;
+}
+
+.footer{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	background: #000;
+}
+
+.footer p{
+	text-align: center;
+	line-height: 60px;
+	color: #fff;
+}
